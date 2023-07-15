@@ -1,0 +1,8 @@
+com\example\boot\entity\User.class
+com\example\boot\Boot302DemoApplication.class
+com\example\boot\controller\HelloController.class
+com\example\boot\entity\Dog.class
+com\example\boot\entity\Cat.class
+com\example\boot\entity\Pig.class
+com\example\boot\config\AppConfig.class
+com\example\boot\config\AppConfig2.class

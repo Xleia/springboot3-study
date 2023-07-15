@@ -1,0 +1,4 @@
+com\huang\component\MyComponent.class
+com\huang\controller\HelloController.class
+com\huang\health\MyComponentHealthIndicator.class
+com\huang\Boot314ActuatorApplication.class

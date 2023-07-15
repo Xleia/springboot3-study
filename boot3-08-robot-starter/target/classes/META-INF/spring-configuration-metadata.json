@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "robot",
+      "type": "com.huang.robot.properties.RobotProperties",
+      "sourceType": "com.huang.robot.properties.RobotProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "robot.age",
+      "type": "java.lang.String",
+      "sourceType": "com.huang.robot.properties.RobotProperties"
+    },
+    {
+      "name": "robot.name",
+      "type": "java.lang.String",
+      "sourceType": "com.huang.robot.properties.RobotProperties"
+    }
+  ],
+  "hints": []
+}

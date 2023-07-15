@@ -1,0 +1,20 @@
+
+person:
+  name: zhangs
+  age: 18
+  birthday: 2001/10/10 10:10:10
+  like: false
+  child:
+    name: lisi
+    age: 20
+    birthday: 2008/10/10 10:10:10
+    text: [ "abc","def" ]
+  dogs:
+    - name: xh
+    - name: xb
+  cats:
+    c1:
+      name: xx
+    c2: {name: xy}  # 对象也可这么表示
+server:
+  port: 9999

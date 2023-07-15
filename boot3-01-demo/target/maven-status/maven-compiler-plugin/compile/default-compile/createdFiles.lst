@@ -1,0 +1,6 @@
+com\huang\boot\entity\Cat.class
+com\huang\boot\entity\Dog.class
+com\huang\boot\controller\HelloController.class
+com\huang\boot\entity\Person.class
+com\huang\boot\entity\Child.class
+com\huang\boot\MainApplication.class
