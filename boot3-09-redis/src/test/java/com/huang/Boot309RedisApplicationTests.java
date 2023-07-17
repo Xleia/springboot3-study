@@ -1,5 +1,8 @@
 package com.huang;
 
+import com.huang.mapper.CacheMapper;
+import com.huang.service.RedisService;
+import jakarta.annotation.Resource;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,6 +13,9 @@ import java.util.UUID;
 
 @SpringBootTest
 class Boot309RedisApplicationTests {
+
+    @Resource
+    RedisService redisService;
 
     @Autowired
     StringRedisTemplate stringRedisTemplate;
@@ -55,5 +61,24 @@ class Boot309RedisApplicationTests {
         Boolean member2 = stringRedisTemplate.opsForSet().isMember(setName, "5");
         Assertions.assertEquals(false, member2);
     }
+
+    @Test
+    void testTransaction() {
+        redisService.test();
+    }
+
+    @Test
+    void testTransaction2() {
+        System.out.println(stringRedisTemplate.opsForValue().get("d"));
+    }
+
+    @Resource
+    CacheMapper cacheMapper;
+
+    @Test
+    void cacheTest(){
+        cacheMapper.getSid();
+    }
+
 
 }

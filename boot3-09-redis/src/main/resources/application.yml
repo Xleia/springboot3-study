@@ -1,0 +1,11 @@
+spring:
+  data:
+   redis:
+     host: 111.230.48.114
+     port: 6379
+     client-type: lettuce
+  datasource:
+    url: jdbc:mysql://localhost:3306/db1
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
